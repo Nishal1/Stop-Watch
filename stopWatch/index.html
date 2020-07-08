@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/453481bacd.js" crossorigin="anonymous"></script>
+    <title>Stop Watch</title>
+</head>
+<body onload=>
+    <div id="stop-watch">
+        <h>Stop Watch</h>
+        <div id="timer">00:00:00</div>
+        <div id="buttons">
+            <button id="start" onclick="startTimer()"><i class="fas fa-play"></i> Start</button>
+            <button id="stop" onclick="stopTimer()" ><i class="fas fa-pause"></i> Stop</button>
+            <button id="reset" onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

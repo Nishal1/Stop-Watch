@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right, green, yellow);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5vw;
+    text-align: center;
+}
+#stop-watch {
+    min-height: 20vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40vh;
+}
+button {
+    padding: 3vh;
+    border: solid black 0.1vw;
+}
+#stop {
+    background-color: #F88180;
+}
+#start {
+    background-color: lightblue;
+}
+#reset {
+    background-color: #D4D4D4;
+}
+#start:focus {
+    background-color: #33ADDF;
+}
+#stop:focus {
+    background-color: #FE3637;
+}
