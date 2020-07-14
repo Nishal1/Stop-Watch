@@ -33,7 +33,7 @@ function zeroChecker(time) {
 
 function resetTimer() {
     clearTimeout(timerId);
-    displaySeconds = displayMinutes = displayHours = "0" + "0";
+    displaySeconds = displayMinutes = displayHours = "00";
     seconds = minutes = hours = 0;
     document.getElementById("timer").innerHTML = displayHours + ":" + displayMinutes + ":"+ displaySeconds;
 }
